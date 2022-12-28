@@ -7,3 +7,16 @@ $prefix: "mo-";
 
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: $brandSecondary;
+
+    &:hover {
+        color: $brandPrimary;
+    }
+}
