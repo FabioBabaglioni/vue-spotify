@@ -16,7 +16,7 @@ export default {
 @use "../style/partials/variables.scss" as *;
 
 #header {
-    width: calc(100vw - 200px);
+    width: calc(100vw - 220px);
     height: 100px;
     background-color: $brandSfondo;
     overflow: auto;

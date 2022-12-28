@@ -16,7 +16,7 @@ export default {
 @use "../style/partials/variables.scss" as *;
 
 #content {
-    width: calc(100vw - 200px);
+    width: calc(100vw - 220px);
     height: calc(100vh - 200px);
     background-color: $brandSfondo;
 }
