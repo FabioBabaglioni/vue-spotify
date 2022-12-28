@@ -7,9 +7,17 @@ export default {
 </script>
 
 <template>
+    <section id="content">
 
+    </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@use "../style/partials/variables.scss" as *;
 
+#content {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 200px);
+    background-color: $brandSfondo;
+}
 </style>

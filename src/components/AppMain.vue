@@ -15,16 +15,21 @@ export default {
 
 <template>
     <main>
-        <MainSidebar />
-        <MainContent />
-        <MainHeader />
+        <div class="d-flex ">
+            <div>
+                <MainSidebar />
+            </div>
+
+            <div>
+                <MainHeader />
+                <MainContent />
+            </div>
+        </div>
     </main>
 
 
 </template>
 
 <style scoped>
-main {
-    height: 100%;
-}
+
 </style>
