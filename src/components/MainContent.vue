@@ -1,8 +1,11 @@
 <script>
 import ContentCardRecenti from "./ContentCardRecenti.vue"
+import ContentCardArtistiPreferiti from "./ContentCardArtistiPreferiti.vue"
+import ContentCardSong from "./ContentCardSong.vue"
+
 export default {
     components: {
-        ContentCardRecenti,
+        ContentCardRecenti, ContentCardArtistiPreferiti, ContentCardSong
     }
 }
 
@@ -12,6 +15,8 @@ export default {
     <section id="content">
         <div class="container_site">
             <ContentCardRecenti />
+            <ContentCardArtistiPreferiti />
+            <ContentCardSong />
         </div>
     </section>
 </template>
@@ -24,5 +29,6 @@ export default {
     height: calc(100vh - 100px);
     background-color: $brandSfondo;
     padding-top: 120px;
+    overflow: auto;
 }
 </style>

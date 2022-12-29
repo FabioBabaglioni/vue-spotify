@@ -34,6 +34,7 @@ export default {
     background-color: $brandSfondo;
     overflow: auto;
     position: fixed;
+    z-index: 100;
 }
 
 .icon {
