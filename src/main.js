@@ -4,9 +4,10 @@ import App from './App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, faUser as fasUser, faCaretDown } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, faUser as fasUser, faCaretDown, faCirclePlay } from '@fortawesome/free-solid-svg-icons'
 import { faUser as farUser } from '@fortawesome/free-regular-svg-icons'
 
-library.add(faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, fasUser, farUser, faCaretDown)
+
+library.add(faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, fasUser, farUser, faCaretDown, faCirclePlay)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
