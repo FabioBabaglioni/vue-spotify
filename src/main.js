@@ -4,11 +4,12 @@ import App from './App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, faUser as fasUser, faCaretDown, faCirclePlay, faShuffle, faBackwardStep, faForwardStep, faRepeat } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, faUser as fasUser, faCaretDown, faCirclePlay, faShuffle, faBackwardStep, faForwardStep, faRepeat, faMicrophone, faBars, faMobileScreenButton, faVolumeHigh, faUpRightAndDownLeftFromCenter } from '@fortawesome/free-solid-svg-icons'
 import { faUser as farUser, faHeart as fasHeart } from '@fortawesome/free-regular-svg-icons'
 
 
-library.add(faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, fasUser, farUser, faCaretDown, faCirclePlay, fasHeart, faShuffle, faBackwardStep, faForwardStep, faRepeat)
+library.add(faHouse, faMagnifyingGlass, faBook, faSquarePlus, faHeart, faCircleArrowLeft, faCircleArrowRight, fasUser, farUser, faCaretDown, faCirclePlay, fasHeart, faShuffle, faBackwardStep, faForwardStep, faRepeat, faMicrophone, faBars, faMobileScreenButton, faVolumeHigh, faUpRightAndDownLeftFromCenter)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
 
+faMicrophone, faBars, faMobileScreenButton, faVolumeHigh, faUpRightAndDownLeftFromCenter

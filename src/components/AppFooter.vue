@@ -11,7 +11,7 @@ export default {
         <section id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-2 song d-flex align-items-center">
+                    <div class="col-3 song d-flex align-items-center">
                         <img src="../img/youg.jpeg" alt="">
                         <div class="ps-3">
                             <div class="pb-2">Titolo canzone</div>
@@ -22,7 +22,7 @@ export default {
                         </div>
 
                     </div>
-                    <div class="col-8">
+                    <div class="col-6">
                         <div class="d-flex justify-content-center align-items-center play">
                             <a href="#"><font-awesome-icon class="px-3 py-3 icon_medium"
                                     icon="fa-solid fa-shuffle" /></a>
@@ -43,8 +43,15 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-2">
-
+                    <div class="col-3 d-flex align-items-center justify-content-around">
+                        <a href=""><font-awesome-icon class="icon_medium" icon="fa-solid fa-microphone" /></a>
+                        <a href=""><font-awesome-icon icon="fa-solid fa-bars" /></a>
+                        <a href=""><font-awesome-icon icon="fa-solid fa-mobile-screen-button" /></a>
+                        <a href=""><font-awesome-icon class="margine" icon="fa-solid fa-volume-high" /></a>
+                        <div class="volume-barra">
+                            <div class="volume-barra-bianca"></div>
+                        </div>
+                        <a href=""><font-awesome-icon icon="fa-solid fa-up-right-and-down-left-from-center" /></a>
                     </div>
                 </div>
             </div>
@@ -85,7 +92,7 @@ export default {
 
 
     img {
-        width: 30%;
+        width: 20%;
     }
 
     .time {
@@ -111,5 +118,26 @@ export default {
     }
 
 
+    .volume-barra {
+        width: 50%;
+        height: 2px;
+        background-color: rgb(165, 165, 165);
+        margin-right: 15px;
+        margin-left: 10px;
+        position: relative;
+    }
+
+    .volume-barra-bianca {
+        width: 10%;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .margine {
+        margin-right: -20px;
+    }
 }
 </style>
