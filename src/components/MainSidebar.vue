@@ -8,7 +8,7 @@ export default {
 
 <template>
     <section id="sidebar">
-        <div class="ps-4">
+        <div class="ps-4 home">
             <img class="pt-4 " src="../img/logo.svg" alt="">
 
             <div class=" pt-4 ">
@@ -65,6 +65,10 @@ export default {
     width: 220px;
     height: calc(100vh - 100px);
     background-color: $brandThird;
+
+    .home {
+        position: fixed;
+    }
 }
 
 img {
@@ -86,6 +90,8 @@ hr {
 }
 
 .overflow {
+
     overflow: auto;
+    padding-top: 290px;
 }
 </style>
